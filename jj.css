@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ background-color: black;
+}
+.main{
+
+    transform: scale(3);
+    position: absolute;
+    width: 250px;
+    height: 80px;
+  
+    margin-top: 500px;
+
+   
+    background: linear-gradient(115deg,red, green, yellow ,orange);
+    animation: main 0.7s linear infinite;
+    border-radius: 10px;
+}
+
+    
+
+.m2{
+    border: 1px solid #000;
+    width: 235px;
+    height: 70px;
+    position: relative;
+    left: 7px;
+    top: 4px;
+    background-color: #000;
+    border-radius: 10px;
+  
+  
+}
+h1{
+    color: white;
+    text-align: center;
+position: relative;
+top: -8px;
+
+
+
+}
+
+
+
+
+
+.m2:hover{
+    text-shadow: 10px 10px 5px red, -20px -10px 5px orange;
+}
+@keyframes main{
+ 100%{
+    filter: hue-rotate(360deg);}
+ }
